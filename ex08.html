@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex08</title>
+    <style>
+        *{
+          margin:0;
+          padding:0;
+        }
+
+        .matriz{
+            width: 400px;
+            height: 300px;
+            border: 1px solid rgba(0, 0, 0, 0.406);
+            box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.794);
+            margin: auto; 
+        }
+      
+        .palito {
+          width: 50px;
+          height: 180px;
+          border-radius:50px;
+          background: #4B4D88;
+          position:relative;
+          top:50%;
+          left:50%;
+          translate: -50% -50%;
+          margin-top:-10px;
+          z-index:1;
+          }
+        
+        .palitoLargo {
+          width: 70px;
+          height: 170px;
+          border-radius:50px;
+          background: #B0E1FB;
+          position: relative;
+          margin-top:-100px;
+          margin-left:165px;
+          }
+      
+        .triangulo{
+          width:0px;
+          height:0px;
+          background:transparent;
+          border:65px solid transparent;
+         border-bottom:60px solid #4B4D88;
+          position:relative;
+          margin-top:-195px;
+          margin-left:135px;
+          z-index:-1;
+        }
+      
+        .trianguloDois{
+          width:0px;
+          height:0px;
+          background:transparent;
+          border:65px solid transparent;
+          border-bottom:60px solid #C15965;
+          position:relative;
+          margin-left:135px;
+          margin-top:-34px;
+          z-index:-1;
+        }
+      </style>
+</head>
+<body>
+        <div class="matriz">
+            <div class="palito"></div>
+            <div class="palitoLargo"></div>
+            <div class="triangulo"></div>
+            <div class="trianguloDois"></div>
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex03</title>
+    <style>
+        *{
+          margin: 0px;
+          padding: 0px;
+        }
+
+        .matriz{
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .container{
+          width: 400px;
+          height: 300px;
+          display: flex;
+          background:#EAC049;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid rgba(0, 0, 0, 0.406);
+          box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.794);
+          margin: auto;
+        }
+        
+        .bolaGrande {
+          width: 160px;
+          height: 160px;
+          border-radius: 50%;
+          background: #343D42;
+          display:flex;
+          align-items:center;
+        }
+        
+        .bolaMediaEsq{
+          width:80px;
+          height:80px;
+          background: #343D42;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          z-index: 1;
+        }
+        
+        .bolaPeq{
+          width:40px;
+          height:40px;
+          border-radius:50%;
+          background: #EAC049;
+          margin-top:60px;
+          z-index: 2;
+        }
+        
+        .bolaMediaDir{
+          width:80px;
+          height:80px;
+          background: #EAC049;
+          border-radius: 50%;
+          z-index: 1;
+        }
+      
+        .divisão{
+          width:400px;
+          height:80px;
+          background:#EAC049;
+          margin: auto;
+          margin-top: -150px;
+          z-index: 0;
+        }
+      </style>
+</head>
+<body>
+    <div class="matriz">
+      <div class="container">
+          <div class="bolaGrande">
+              <div class="bolaMediaEsq"><div class="bolaPeq"></div></div>
+              <div class="bolaMediaDir"></div>
+          </div>
+      </div>
+          <div class="divisão"></div>
+    </div>      
+</body>
+</html>

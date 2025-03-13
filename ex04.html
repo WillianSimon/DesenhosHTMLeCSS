@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex04</title>
+    <style>
+        *{
+          margin: 0px;
+          padding: 0px;
+        }
+      
+        .matriz{
+          display: flex;
+          flex-direction: column;
+          width: 400px;
+          height: 300px;
+          margin: auto;
+          border: 1px solid rgba(0, 0, 0, 0.406);
+          box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.794);
+        }
+        
+        .horizontalUm{
+          height:70px;
+          background: #F58220;
+          z-index:2
+        }
+        
+        .horizontalDois{
+          height:70px;
+          background: #F58220;
+          z-index:2
+        }
+        
+        .container{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          height: 160px;
+          background: #F58220;
+        }
+        
+        .emPéDireita {
+          width: 57px;
+          height: 200px;
+          background: #FFFFFF;
+          transform: rotate(21deg);
+          margin-left: -10px;
+          z-index:1;
+        }
+        
+        .emPéEsquerda {
+          width: 57px;
+          height: 200px;
+          background: #FFFFFF;
+          transform: rotate(21deg);
+          margin-right: -10px;
+        }
+        
+        .deitado{
+          width: 80px;
+          height: 20px;
+          background: #FFFFFF;
+        }
+      </style>
+</head>
+<body>
+    <div class="matriz">
+        <div class="horizontalUm"></div>
+        <div class="container">
+        <div class="emPéEsquerda"></div>
+        <div class="deitado"></div>
+        <div class="emPéDireita"></div>
+        </div>
+        <div class="horizontalDois">
+        </div>
+</body>
+</html>
