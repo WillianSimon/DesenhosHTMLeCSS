@@ -6,10 +6,11 @@
     border: 1px solid rgba(0, 0, 0, 0.406);
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.794);
     margin: auto; 
+    background:#2F434E;
   }
 
   body{
-    background:#2F434E;
+    background:white;
   }
   
   .meioBola {
