@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{
+    background: white;
+  }
+
+  .container{
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.406);
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.794);
+    margin: auto; 
+    background:#4F77FF;
+  }
+  .circulo{
+    width: 192px;
+    height: 192px;
+    background: #FFFFFF;
+    border-radius:50%;
+    margin:auto;
+    margin-top:-192px;
+  }
+  .retangulo {
+    width: 256px;
+    height: 32px;
+    background: #FFFFFF;
+    margin:auto;
+    margin-top:214px
+  }
+  .circuloDois{
+    width: 128px;
+    height: 128px;
+    background: #4F77FF;
+    border-radius:50%;
+    margin:auto;
+    margin-top:-160px;
+  }
